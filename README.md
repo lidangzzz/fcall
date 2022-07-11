@@ -1,2 +1,2 @@
-# hfc (Hot Function): Load and execute a hot function in JavaScript/TypeScript
+# hotfunc: load and execute a hot function in JavaScript/TypeScript
 
