@@ -2,7 +2,8 @@
   "name": "fcall",
   "version": "1.0.0",
   "description": "Load and execute a hot function in JavaScript/TypeScript",
-  "main": "index.js",
+  "main": "./lib/main.js",
+  "types": "./lib/main.d.ts",
   "scripts": {
     "build": "babel src -d lib --extensions \".ts\"",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/lidangzzz/fcall.git"
   },
-  "author": "",
+  "author": "lidangzzz",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lidangzzz/fcall/issues"
@@ -22,6 +23,7 @@
     "@babel/core": "^7.18.6",
     "@babel/plugin-transform-typescript": "^7.18.8",
     "@babel/preset-env": "^7.18.6",
-    "@babel/preset-typescript": "^7.18.6"
+    "@babel/preset-typescript": "^7.18.6",
+    "typescript": "^4.7.4"
   }
 }
