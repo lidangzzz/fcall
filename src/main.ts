@@ -1,5 +1,5 @@
-function func() {
+function f() {
     return "Hello World";
 }
 
-export { func };
+export { f };
