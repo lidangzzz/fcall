@@ -1,5 +1,2 @@
-function f() {
-    return "Hello World";
-}
-
+import { f } from './f';
 export { f };

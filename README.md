@@ -1,9 +1,6 @@
 # fcall
 
-`fcall`, call any remote hot functions, anywhere, anytime, without installations or configurations.
-
-1. Install `fcall` once, run any functions/modules/libraries
-2. Hot load any functions from Hedgehog Lab anywhere in your code.
+`fcall`, fetch and call any remote hot functions, anywhere, anytime, without installations or configurations.
 
 ## Installation
 
