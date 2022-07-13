@@ -28,7 +28,7 @@ import { f } from 'fcall';
 const result = f('your_function', [param1, param2, param3]);
 ```
 
-## How does `fcall` work? 
+## How does `fcall` work?
 
 1. `fcall` sends a request to the server to fetch the function by its name `'your_function'`;
 2. The server then returns the source code of function `'your_function'`;
